@@ -1,0 +1,5 @@
+﻿  4.c
+D:\DATA\Visual studio code\C Compiler\on side test\2\onside  test 3\4\4.c(40,12): warning C4098: 'f_r': 'void' 函式正在傳回值
+D:\DATA\Visual studio code\C Compiler\on side test\2\onside  test 3\4\4.c(65,22): warning C4047: '函式': 'link *' 與 'link' 間接取值的層級不同
+D:\DATA\Visual studio code\C Compiler\on side test\2\onside  test 3\4\4.c(65,18): warning C4024: 'free_head': 型式和實質參數 1 不同的類型
+  4.vcxproj -> D:\DATA\Visual studio code\C Compiler\on side test\2\onside  test 3\4\Debug\4.exe

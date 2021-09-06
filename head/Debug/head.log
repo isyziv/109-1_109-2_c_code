@@ -1,0 +1,5 @@
+﻿  link_list.c
+D:\DATA\Visual studio code\C Compiler\head\code\link_list.c(30,18): warning C4047: '=': 'int' differs in levels of indirection from 'link'
+  Source.c
+  Generating Code...
+  head.vcxproj -> D:\DATA\Visual studio code\C Compiler\head\Debug\head.exe

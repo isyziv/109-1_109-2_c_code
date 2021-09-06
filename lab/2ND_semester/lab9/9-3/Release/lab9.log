@@ -1,0 +1,15 @@
+﻿  D0972425_許祐瑋_9_3.c
+D:\DATA\Visual studio code\C Compiler\lab\2ND_semester\lab9\9-3\D0972425_許祐瑋_9_3.c(40,12): warning C4098: 'f_r': 'void' 函式正在傳回值
+D:\DATA\Visual studio code\C Compiler\lab\2ND_semester\lab9\9-3\D0972425_許祐瑋_9_3.c(170,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+D:\DATA\Visual studio code\C Compiler\lab\2ND_semester\lab9\9-3\D0972425_許祐瑋_9_3.c(173,24): warning C4133: '=': 不相容的類型 - 從 'link' 至 'tree'
+D:\DATA\Visual studio code\C Compiler\lab\2ND_semester\lab9\9-3\D0972425_許祐瑋_9_3.c(177,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+  link_list.c
+D:\DATA\Visual studio code\C Compiler\lab\2ND_semester\lab9\9-3\link_list.c(21,12): warning C4047: 'return': 'link' 與 'link *' 間接取值的層級不同
+D:\DATA\Visual studio code\C Compiler\lab\2ND_semester\lab9\9-3\link_list.c(45,13): warning C4047: 'return': 'link' 與 'link **' 間接取值的層級不同
+  tree.c
+  正在產生程式碼
+  Previous IPDB not found, fall back to full compilation.
+D:\DATA\Visual studio code\C Compiler\lab\2ND_semester\lab9\9-3\tree.c(61): warning C4716: 'insert_tree': 必須傳回值
+  All 15 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成程式碼產生
+  lab9.vcxproj -> D:\DATA\Visual studio code\C Compiler\lab\2ND_semester\lab9\9-3\Release\lab9.exe

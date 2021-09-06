@@ -1,0 +1,299 @@
+{
+	"printf": {
+		"prefix": ".out",
+		"body": [
+			"printf(\"$0\");"
+		],
+		"description": "printf"
+	}
+	"scanf": {
+		"prefix": ".in",
+		"body": [
+			"scanf(\"$0\");"
+		],
+		"description": "scanf"
+	}
+	"class_void": {
+		"prefix": ".class void",
+		"body": [
+			"void $0()",
+			"{",
+			"",
+			"}"
+		],
+		"description": "class"
+	}
+	"class_int": {
+		"prefix": ".class int",
+		"body": [
+			"int $0()",
+			"{",
+			"",
+			"}"
+		],
+		"description": "class"
+	}
+	  "system_pause": {
+		"prefix": ".pause",
+		"body": [
+			"system(\"pause\");"
+		],
+		"description": "system"
+	}
+	"system_hello": {
+		"prefix": ".hello",
+		"body": [
+			"#include <stdio.h>",
+			"#include <stdlib.h>",
+			"int main(void)",
+			"{",
+			"    $0",
+			"    return 0;",
+			"}"
+		],
+		"description": "system"
+	}
+	"for": {
+		"prefix": ".for",
+		"body": [
+			"for($0)",
+			"{",
+			"",
+			"}"
+		],
+		"description": "for"
+	}
+	  "if": {
+		"prefix": ".if",
+		"body": [
+			"if($0)",
+			"{",
+			"",
+			"}"
+		],
+		"description": "if"
+	}
+	"disable_safe_alarm": {
+		"prefix": ".disable_safety_error",
+		"body": [
+			"#define _CRT_SECURE_NO_WARNINGS$0"
+		],
+		"description": "disable_safe_alarm"
+	}
+	"value_named_union": {
+		"prefix": ".set_union",
+		"body": [
+			"union $0",
+			"{",
+			"",
+			"};"
+		],
+		"description": "value_named_union"
+	}
+	"math.h": {
+		"prefix": ".math.h",
+		"body": [
+			"#include <math.h>"
+		],
+		"description": ".math.h"
+	}
+	"fflush(stdin)": {
+		"prefix": ".clr_catchin",
+		"body": [
+			"fflush(stdin);",
+			"$0"
+		],
+		"description": "fflush(stdin)"
+	}
+	  "fflush(stdin)+in": {
+		"prefix": ".clr+in",
+		"body": [
+			"fflush(stdin);",
+			"scanf(\"$0\");"
+		],
+		"description": "fflush(stdin)"
+	}
+	  "fflush(stdout)": {
+		"prefix": ".clr_catchout",
+		"body": [
+			"fflush(stdout);",
+			"$0"
+		],
+		"description": "fflush(stdout)"
+	}
+	  "fflush(stdout)+out": {
+		"prefix": ".clr+out",
+		"body": [
+			"fflush(stdout);",
+			"printf(\"$0\");"
+		],
+		"description": "fflush(stdout)+out"
+	}
+	  "puts": {
+		"prefix": ".puts",
+		"body": [
+			"puts($0);"
+		],
+		"description": "puts"
+	}
+	  "gets": {
+		"prefix": ".gets",
+		"body": [
+			"gets($0);"
+		],
+		"description": "gets"
+	}
+	"enum": {
+		"prefix": ".enum",
+		"body": [
+			"enum $0{};",
+			""
+		],
+		"description": "enum"
+	}
+	"setstruct": {
+		"prefix": ".set_struct",
+		"body": [
+			"struct $0{",
+			"    ",
+			"};"
+		],
+		"description": "struct"
+	}
+	"struct": {
+		"prefix": ".struct",
+		"body": [
+			"struct $0;"
+		],
+		"description": "struct"
+	}
+	"re0": {
+		"prefix": ".re0",
+		"body": [
+			"return 0;"
+		],
+		"description": "re0"
+	}
+	  "re1": {
+		"prefix": ".re1",
+		"body": [
+			"return 1;"
+		],
+		"description": "re1"
+	}
+	"re": {
+		"prefix": ".re",
+		"body": [
+			"return $0;"
+		],
+		"description": "re1"
+	}
+	  "auto_change_safety_program": {
+		"prefix": ".auto_change_safety_program",
+		"body": [
+			"#define _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES 1"
+		],
+		"description": "auto_change_safety_program"
+	}
+	".srand": {
+		"prefix": "srand",
+		"body": [
+			"srand(time(NULL));"
+		],
+		"description": ".srand"
+	}
+	  "time": {
+		"prefix": ".time",
+		"body": [
+			"#include <time.h>"
+		],
+		"description": "time"
+	}
+	  "br": {
+		"prefix": ".br",
+		"body": [
+			"puts(\" \");"
+		],
+		"description": "br"
+	}
+	"stdio": {
+		"prefix": ".stdio",
+		"body": [
+			"#include <stdio.h>"
+		],
+		"description": "stdio"
+	}
+	  "stdlib": {
+		"prefix": ".stdlib",
+		"body": [
+			"#include <stdlib.h>"
+		],
+		"description": "stdlib"
+	}
+	  "string": {
+		"prefix": ".string",
+		"body": [
+			"#include <string.h>"
+		],
+		"description": "string"
+	}
+	  "math": {
+		"prefix": ".math",
+		"body": [
+			"#include <math.h>"
+		],
+		"description": "math"
+	}
+	"br": {
+		"prefix": ".br",
+		"body": [
+			"puts(\" \");"
+		],
+		"description": "br"
+	}
+	"start": {
+		"prefix": ".start",
+		"body": [
+			"#include <stdio.h>",
+			"#include <stdlib.h>",
+			"int main(void)",
+			"{",
+			"$0",
+			"    system(\"pause\");",
+			"    return 0;",
+			"}"
+		],
+		"description": "start"
+	}"else": {
+		"prefix": ".else",
+		"body": [
+			"    else",
+			"    {",
+			"      $0  ",
+			"    }"
+		],
+		"description": "else"
+	}
+	"fprintf": {
+		"prefix": ".fprintf",
+		"body": [
+			"fprintf($0);"
+		],
+		"description": "fprintf"
+	}
+	"fopen": {
+		"prefix": ".fopen",
+		"body": [
+			"fopen(\"$0\");",
+			""
+		],
+		"description": "fopen"
+	}"fclose": {
+		"prefix": ".fclose",
+		"body": [
+			"fclose($0);"
+		],
+		"description": "fclose"
+	}
+	//type in here
+}

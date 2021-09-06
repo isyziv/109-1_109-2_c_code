@@ -1,0 +1,8 @@
+﻿  D0972425_許祐瑋_9_2.c
+D:\DATA\Visual studio code\C Compiler\lab\2ND_semester\lab9\9-2\D0972425_許祐瑋_9_2.c(56,18): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+  link_list.c
+D:\DATA\Visual studio code\C Compiler\lab\2ND_semester\lab9\9-2\link_list.c(21,12): warning C4047: 'return': 'link' 與 'link *' 間接取值的層級不同
+D:\DATA\Visual studio code\C Compiler\lab\2ND_semester\lab9\9-2\link_list.c(45,12): warning C4047: 'return': 'link' 與 'link *' 間接取值的層級不同
+  正在產生程式碼...
+D:\DATA\Visual studio code\C Compiler\lab\2ND_semester\lab9\9-2\link_list.c(35): warning C4716: 'append': 必須傳回值
+  lab9.vcxproj -> D:\DATA\Visual studio code\C Compiler\lab\2ND_semester\lab9\9-2\Debug\lab9.exe

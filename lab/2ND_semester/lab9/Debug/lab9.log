@@ -1,0 +1,14 @@
+﻿  D0972425_許祐瑋_9_1.c
+D:\DATA\Visual studio code\C Compiler\lab\2ND_semester\lab9\D0972425_許祐瑋_9_1.c(28,13): warning C4047: '函式': 'link *' 與 'link' 間接取值的層級不同
+D:\DATA\Visual studio code\C Compiler\lab\2ND_semester\lab9\D0972425_許祐瑋_9_1.c(28,9): warning C4024: 'insert': 型式和實質參數 1 不同的類型
+D:\DATA\Visual studio code\C Compiler\lab\2ND_semester\lab9\D0972425_許祐瑋_9_1.c(28,15): warning C4020: 'insert': 實質參數太多
+D:\DATA\Visual studio code\C Compiler\lab\2ND_semester\lab9\D0972425_許祐瑋_9_1.c(39,12): warning C4098: 'f_r': 'void' 函式正在傳回值
+D:\DATA\Visual studio code\C Compiler\lab\2ND_semester\lab9\D0972425_許祐瑋_9_1.c(49,8): warning C4013: 'strcpy' 未定義; 假設 extern 傳回整數
+D:\DATA\Visual studio code\C Compiler\lab\2ND_semester\lab9\D0972425_許祐瑋_9_1.c(54,24): warning C4047: '=': 'link *' 與 'link' 間接取值的層級不同
+D:\DATA\Visual studio code\C Compiler\lab\2ND_semester\lab9\D0972425_許祐瑋_9_1.c(59,24): warning C4047: '=': 'link *' 與 'link' 間接取值的層級不同
+D:\DATA\Visual studio code\C Compiler\lab\2ND_semester\lab9\D0972425_許祐瑋_9_1.c(71,12): warning C4020: 'f_r': 實質參數太多
+D:\DATA\Visual studio code\C Compiler\lab\2ND_semester\lab9\D0972425_許祐瑋_9_1.c(80,15): warning C4047: '函式': 'link' 與 'link *' 間接取值的層級不同
+D:\DATA\Visual studio code\C Compiler\lab\2ND_semester\lab9\D0972425_許祐瑋_9_1.c(80,10): warning C4024: 'a_part': 型式和實質參數 1 不同的類型
+D:\DATA\Visual studio code\C Compiler\lab\2ND_semester\lab9\D0972425_許祐瑋_9_1.c(80,23): warning C4047: '函式': 'char *' 與 'int' 間接取值的層級不同
+D:\DATA\Visual studio code\C Compiler\lab\2ND_semester\lab9\D0972425_許祐瑋_9_1.c(80,20): warning C4024: 'a_part': 型式和實質參數 2 不同的類型
+  lab9.vcxproj -> D:\DATA\Visual studio code\C Compiler\lab\2ND_semester\lab9\Debug\lab9.exe

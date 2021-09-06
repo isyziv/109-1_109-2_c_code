@@ -1,0 +1,3 @@
+﻿  04.c
+D:\DATA\Visual studio code\C Compiler\on side test\2\on side test 2\04\04.c(59,13): warning C4098: 'check': 'void' 函式正在傳回值
+  04.vcxproj -> D:\DATA\Visual studio code\C Compiler\on side test\2\on side test 2\04\Debug\04.exe
